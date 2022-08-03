@@ -1,5 +1,5 @@
 import { createUseStyles } from "react-jss";
-import colors from "../utils/colors";
+import colors from "../../utils/colors";
 
 const HeaderStyles = createUseStyles({
   Header: {

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 import HeaderStyles from "./HeaderStyles";
-import logo from "../assets/shared/desktop/logo-dark.png";
-import hamburger from "../assets/shared/mobile/icon-hamburger.svg";
-import close from "../assets/shared/mobile/icon-close.svg";
+import logo from "../../assets/shared/desktop/logo-dark.png";
+import hamburger from "../../assets/shared/mobile/icon-hamburger.svg";
+import close from "../../assets/shared/mobile/icon-close.svg";
 
 function Header() {
   const classes = HeaderStyles();

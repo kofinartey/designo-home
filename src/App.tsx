@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Button from "./components/button/Button";
-import Header from "./header/Header";
+import HomeApp from "./HomeApp";
 
 import "./index.css";
 
 const App = () => (
   <div className="">
-    <Header />
+    <HomeApp />
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));

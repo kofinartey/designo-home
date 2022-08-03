@@ -13,7 +13,7 @@ function Button({ children, variant }: ButtonProps) {
   const classes = createUseStyles({
     Button: {
       textTransform: "uppercase",
-      padding: "1rem 2rem",
+      padding: "1rem 1.5rem",
       backgroundColor: variant === "primary" ? "white" : colors.primary.peach,
       color: variant === "primary" ? colors.primary.black : "#fff",
       fontFamily: '"Jost", sans-serif',
